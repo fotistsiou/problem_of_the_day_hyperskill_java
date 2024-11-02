@@ -1,4 +1,4 @@
-package fotistsiou.hyperskill.java.spectral_accounting_in_the_spooky_manor;
+package fotistsiou.hyperskill.java.day_2;
 
 import java.util.Scanner;
 

@@ -1,3 +1,4 @@
 ## Problem of the Day Powered by Hyperskill
-* Spooky squared: A haunted sum
-* Spectral accounting in the spooky manor
+* Day 1 | Spooky squared: A haunted sum
+* Day 2 | Spectral accounting in the spooky manor
+* Day 3 | Ghostly access in the mansion of code

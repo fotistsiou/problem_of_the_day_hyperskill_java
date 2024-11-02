@@ -1,4 +1,4 @@
-package fotistsiou.hyperskill.java.spooky_squared_a_haunted_sum;
+package fotistsiou.hyperskill.java.day_1;
 
 import java.util.Scanner;
 
