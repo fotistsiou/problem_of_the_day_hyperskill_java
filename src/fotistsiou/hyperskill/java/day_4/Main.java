@@ -28,9 +28,12 @@ public class Main {
         int count = 0;
         String wordToCount = "boo";
         str = str.toLowerCase();
+
+        // Split by non-word characters (anything that's not a letter or digit)
         String[] words = str.split("\\W+");
 
         for (String word : words) {
+            // Use the "contains" method instead of the "equals" method for the case "boo" is part of a word.
             if (word.contains(wordToCount)) {
                 count++;
             }
