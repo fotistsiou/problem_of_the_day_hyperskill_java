@@ -27,6 +27,8 @@ public class Main {
 
         int count = 0;
         String wordToCount = "boo";
+
+        // Convert the string to lowercase for case-insensitive matching
         str = str.toLowerCase();
 
         // Split by non-word characters (anything that's not a letter or digit)
