@@ -8,19 +8,6 @@ import java.util.Scanner;
  * Design a HauntedHouse class with a private ghost count and public methods to add ghosts and get the total count.
  * The class should take an initial ghost count through its constructor and
  * return the updated count after adding new ghosts using respective methods.
- * ---------------------------------------
- * It is necessary to use the following Main:
- * public class Main {
- *     public static void main(String[] args) {
- *         Scanner scanner = new Scanner(System.in);
- *         int initialGhosts = scanner.nextInt();
- *         int newGhosts = scanner.nextInt();
- *
- *         HauntedHouse house = new HauntedHouse(initialGhosts);
- *         house.addGhosts(newGhosts);
- *         System.out.println(house.getGhostCount());
- *     }
- * }
  */
 
 class HauntedHouse {
