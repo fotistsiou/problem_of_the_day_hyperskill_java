@@ -10,6 +10,18 @@ import java.util.Scanner;
  * return the updated count after adding new ghosts using respective methods.
  */
 
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int initialGhosts = scanner.nextInt();
+        int newGhosts = scanner.nextInt();
+
+        HauntedHouse house = new HauntedHouse(initialGhosts);
+        house.addGhosts(newGhosts);
+        System.out.println(house.getGhostCount());
+    }
+}
+
 class HauntedHouse {
     private int initialGhosts;
 
@@ -23,17 +35,5 @@ class HauntedHouse {
 
     public int getGhostCount() {
         return this.initialGhosts;
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int initialGhosts = scanner.nextInt();
-        int newGhosts = scanner.nextInt();
-
-        HauntedHouse house = new HauntedHouse(initialGhosts);
-        house.addGhosts(newGhosts);
-        System.out.println(house.getGhostCount());
     }
 }
