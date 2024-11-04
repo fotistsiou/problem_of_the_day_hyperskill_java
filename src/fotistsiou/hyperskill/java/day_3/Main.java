@@ -12,6 +12,7 @@ import java.util.Scanner;
  * 2. A GhostRoom inner class used only within HauntedMansion
  * 3. A method to add new rooms, used by other classes
  * 4. A list storing all rooms, accessed only within HauntedMansion
+ * ---------------------------------------
  * Select one option from the list:
  * a. public, private, public, private
  * b. public, protected, public, package-private

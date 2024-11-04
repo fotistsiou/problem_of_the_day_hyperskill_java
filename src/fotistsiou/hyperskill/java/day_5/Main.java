@@ -7,6 +7,7 @@ import java.util.Scanner;
  * ------------------------------------
  * Create a Halloween-themed program that uses a GhostlyEntity class and a Vampire subclass.
  * Fill in the blanks to create a functional program that prints out a spooky message.
+ * ------------------------------------
  * Fill in the gaps with the relevant elements:
  * _____ GhostlyEntity {
  *     _____ String name;
