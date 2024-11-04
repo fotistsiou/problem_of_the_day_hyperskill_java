@@ -10,6 +10,8 @@ import java.util.Scanner;
  * Write a program that takes N as input and calculates the total number of ghosts if each room has i^2 ghosts,
  * where i is the room number (1 to N).
  * Print the total number of ghosts.
+ * -----------------------------
+ * Write a program in Java.
  */
 
 public class Main {

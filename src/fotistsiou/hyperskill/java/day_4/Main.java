@@ -7,6 +7,8 @@ import java.util.Scanner;
  * --------------------------------------
  * Create a Halloween-themed ghost counter that counts the number of 'boo's in a given string.
  * The program should take a string as input and output the count of 'boo's (case-insensitive).
+ * --------------------------------------
+ * Write a program in Java without change the main method.
  */
 
 public class Main {

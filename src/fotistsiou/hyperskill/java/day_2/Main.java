@@ -8,6 +8,8 @@ import java.util.Scanner;
  * Design a HauntedHouse class with a private ghost count and public methods to add ghosts and get the total count.
  * The class should take an initial ghost count through its constructor and
  * return the updated count after adding new ghosts using respective methods.
+ * ---------------------------------------
+ * Write a program in Java without change the Main class.
  */
 
 public class Main {
