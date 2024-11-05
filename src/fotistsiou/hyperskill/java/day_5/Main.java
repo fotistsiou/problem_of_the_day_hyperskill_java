@@ -61,13 +61,12 @@ public class Main {
 
             if (score == 5) {
                 System.out.println("Congratulations!");
-                break;
+                scanner.close();
+                return;
             } else {
                 System.out.println("Try again.");
             }
         }
-
-        scanner.close();
     }
 }
 

@@ -31,16 +31,20 @@ public class Main {
             String input = scanner.next();
             char answer = input.charAt(0);
 
-            if (answer == 'a') {
-                System.out.println("Correct! Are you ready to become an indie java game developer!");
-                break;
-            } else if (answer >= 'b' && answer <= 'e') {
-                System.out.println("Wrong answer. Try again!");
-            } else {
-                System.out.println("Invalid input. Please enter a character from 'a' to 'e'.");
+            switch (answer) {
+                case 'a':
+                    System.out.println("Correct Answer!");
+                    scanner.close();
+                    return;
+                case 'b':
+                case 'c':
+                case 'd':
+                case 'e':
+                    System.out.println("Wrong answer. Try again!");
+                    break;
+                default:
+                    System.out.println("Invalid input. Please enter a character from 'a' to 'e'.");
             }
         }
-
-        scanner.close();
     }
 }
