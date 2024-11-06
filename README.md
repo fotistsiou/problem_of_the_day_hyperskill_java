@@ -4,3 +4,5 @@
 * Day 3 | Ghostly access in the mansion of code
 * Day 4 | Phantom phonics and spectral syllables
 * Day 5 | Fangs and phantoms in code's shadows
+* Day 6 | Comparing strings
+* Day 7 | Forecast fiesta in your console
