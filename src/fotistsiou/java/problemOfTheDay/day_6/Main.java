@@ -1,4 +1,4 @@
-package fotistsiou.hyperskill.java.day_6;
+package fotistsiou.java.problemOfTheDay.day_6;
 
 import java.util.Scanner;
 
